@@ -1,0 +1,292 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 700px;
+    margin: 0%;
+    background-position: center;
+    background-size: cover;
+}
+
+#slide{
+    animation: animate 20s ease-in-out infinite;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+@keyframes animate {
+    0%, 100%{
+        background-image: url(pexels-cottonbro-7339177.jpg);
+    }
+    20%
+    {
+        background-image: url(pexels-vitor-lima-2249172.jpg);
+    }
+    40%{
+        background-image: url(pexels-jep-gambardella-5086775.jpg);
+    }
+    
+    80%{
+        background-image: url(pexels-jep-gambardella-5086770.jpg);
+    }
+}
+
+#slide-content{
+    width: 56.25rem;
+    background-color: rgba(51,47,47,0.8);
+    border-radius: 8px;
+    text-align: center;
+    padding: 3.125rem 0;
+    margin: auto;
+    position: relative;
+    top: 12.5rem;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+}
+
+
+#slide-content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "raleway", sans-serif;
+    margin: 0;
+}
+
+#slide-content p{
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+
+#slide-content a{
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: brown;
+    box-shadow: 2px 4px (black);
+
+}
+
+
+#slide-content a:hover{
+    background-color: rgb(180,180,76);
+
+}
+
+header{
+    height: 50px;
+    background-color: NONE;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0.937rem 3.75rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+header ul{
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0.75rem;
+    border-radius: 6px;
+}
+
+header li{
+    margin-left: 20px;
+    list-style: none;
+    
+}
+header nav a{
+      background-color:black;
+      align-content: flex-end;
+      left: 180px;
+      position: relative;
+}
+
+#logo a{
+    color:white;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+#page-logo a{
+  font-family: "oleo script",sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+}
+
+ul a{
+    color: white;
+}
+
+.mainpic{
+    /* height: 450px; */
+    width: 1349px;
+    background-size: cover;
+}
+
+#signup-page{
+    height: 300px;
+    background-color: peru;
+    overflow: hidden;
+    text-align: center;
+    padding: 8px;
+}
+
+#mid-page{
+    width: 600px;
+    height: 130px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+
+.sect{
+    height: 35px;
+    border-radius: 8px;
+}
+
+#mid-page a{
+    text-decoration: none;
+    color: black;
+    background-color: darkturquoise;
+    border-radius: 6px;
+    padding: 7px 15px;
+    margin-left: 20px
+
+}
+
+#about-page{
+    background-color:lightblue;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* #Godabeg{
+    display: list-item;
+} */
+
+footer{
+    background:whitesmoke;
+    padding: 30px 0;
+}
+
+footer h4{
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.destinations{
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    background: lightblue;
+    
+}
+
+.destinations ul{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+     justify-content: center;
+}
+
+.destinations img{
+    height: 50%;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px;
+}
+.destinations h2{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+.destinations h2{
+    text-align: center;
+    font-size:bold;
+}
+footer{
+    background-color:white;
+}
+
+@media(max-width:48rem){
+    #slide-content{
+        width: 70%;
+
+    }
+    #slide-content p{
+        font-size: 0.8rem;
+        margin: 0.5rem 0 1rem 0;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    #slide-content a {
+        text-decoration: none;
+        background-color: black;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 1rem;
+        color: black;
+        box-shadow: 2px 4px 8px rgb(68,67,67);
+        font-weight: bold;
+    }
+
+    h2{
+        font-size: 1.8rem;
+
+    }
+    #destinations{
+         display: flex;
+        flex-direction: column;
+    }
+     #destinations img{
+        height: 11.5rem;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 2px 4px 8px black;
+        object-fit: cover;
+     }
+}
+
+
+
